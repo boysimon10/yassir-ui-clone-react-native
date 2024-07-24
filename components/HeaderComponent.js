@@ -6,7 +6,7 @@ export default function HeaderComponent() {
     <View className="h-auto bg-white shadow-sm flex-row justify-between items-center">
       <View className="m-4">
         <Text className="text-customDarkBlue font-sans font-bold text-xl">
-          Bienvenue, Ablaye Ndiaye
+          Bienvenue, Simon Diouf
         </Text>
         <Text className="text-customDarkBlue font-sans text-sm">
           Ouest foire, Dakar, Dakar, Senegal{" "}
@@ -16,7 +16,7 @@ export default function HeaderComponent() {
       <TouchableOpacity>
         <View className="bg-customSlate rounded-full w-10 h-10 m-4">
           <Text className="text-white font-semibold text-center text-3xl">
-            A
+            S
           </Text>
         </View>
       </TouchableOpacity>

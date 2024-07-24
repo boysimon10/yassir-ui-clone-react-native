@@ -19,13 +19,14 @@ export default function HeaderComponent() {
           <View className="flex-row">
             <TouchableOpacity onPress={handleToggle}>
               {isVisible ? (
-                <EyeIcon size={24} color="#1C0D48" />
-              ) : (
                 <EyeSlashIcon name="eye-slash" size={24} color="#1C0D48" />
+              ) : (
+                <EyeIcon size={24} color="#1C0D48" />
+                
               )}
             </TouchableOpacity>
             <Text className="py-1 mx-2 text-customDarkBlue">
-              {isVisible ? "5000 XOF" : "•••••"}
+              {isVisible ? "•••••" : "5000 XOF"}
             </Text>
           </View>
         </View>
@@ -136,7 +137,7 @@ export default function HeaderComponent() {
       {/* Carroussel 3 */}
       <View className="">
         <View className="flex  items-centerjustify-between">
-          <Image source={require("../assets/img/carroussel-4.png")} className="w-[350] h-52 rounded-3xl my-4 ml-4 mr-4"/>
+          <Image source={require("../assets/img/carroussel-4.png")} className="w-[345] h-52 rounded-3xl my-4 ml-4 mr-4"/>
         </View>
       </View>
     </View>
